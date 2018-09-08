@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "inlineSources": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": false,
+    "noLib": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "allowJs": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "src",
+    "node_modules"
+  ]
+}

@@ -66,12 +66,12 @@ let mouseSamurai = () => {
 }
 
 let nin = mouseNinja()
-animal.describe = () => "CRAP! Should have made animal a factory so nobody could edit base functionality..."
+//animal.describe = () => "CRAP! Should have made animal a factory so nobody could edit base functionality..."
 let sam = mouseSamurai()
 
 console.log("nin", nin)
 
-console.log(nin.describe())
+console.log(nin.describe.apply({ legs: 5 }))
 console.log(sam.describe())
 console.log(nin.profession())
 console.log(nin.saying())

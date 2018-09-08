@@ -1,0 +1,29 @@
+{
+  "name": "crackingcode",
+  "version": "1.0.0",
+  "description": "solving problems from cracking the coding interview",
+  "main": "1-8.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/runner.js --max_old_space_size=2048",
+    "start:dev": "npm run build && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JKHeadley/CrackingCode.git"
+  },
+  "author": "Justin Headley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JKHeadley/CrackingCode/issues"
+  },
+  "homepage": "https://github.com/JKHeadley/CrackingCode#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^2.9.2"
+  }
+}

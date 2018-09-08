@@ -14,6 +14,7 @@ const Graph = () => {
 
     start.visited = true
 
+    // breadth first search
     while (q.length > 0) {
       const current = q.pop()
 
